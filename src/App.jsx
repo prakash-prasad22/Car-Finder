@@ -12,7 +12,6 @@ function App() {
             <Header/>
 
             <Routes>
-                <Route path="*" element={<CarList/>} />
                 <Route path="/" element={<CarList />} />
                 <Route path="/cars/:id" element={<CarDetails />} />
                 <Route path="/wishlist" element={<WishlistPage />} />
